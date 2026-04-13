@@ -111,7 +111,7 @@ export default function Home() {
                     repeat: Infinity, 
                     ease: "easeInOut" 
                   }}
-                  src="https://picsum.photos/seed/biryani/800/800"
+                  src="/Assets/hero_image.jpg"
                   referrerPolicy="no-referrer"
                 />
               </div>
