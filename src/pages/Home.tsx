@@ -236,10 +236,10 @@ export default function Home() {
           </motion.div>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
             {([
-              { title: 'Heritage Sweets', desc: 'Time-honored confections crafted with pure desi ghee and saffron.', img: '/Assets/Signature Menu/HeritageSweet.jpeg' },
-              { title: 'Artisanal Savouries', desc: 'Crispy, spiced delights that celebrate the vibrant street flavors of India.', img: '/Assets/Signature Menu/Artisanal Savouries.jpg' },
-              { title: 'The Main Hearth', desc: 'Hearty, slow-cooked meals that bring the warmth of our family kitchen.', img: '/Assets/Signature Menu/TheMainHeart.jpeg' },
-              { title: 'Soulful Sips', desc: 'Refreshing traditional drinks, from Masala Chai to cooling Lassi.', img: '/Assets/Signature Menu/Soulful Sips.jpg' }
+              { title: 'Heritage Sweets', desc: 'Time-honored confections crafted with pure desi ghee and saffron.', img: '/Assets/SignatureMenu/heritage-sweet.jpeg' },
+              { title: 'Artisanal Savouries', desc: 'Crispy, spiced delights that celebrate the vibrant street flavors of India.', img: '/Assets/SignatureMenu/artisanal-savouries.jpg' },
+              { title: 'The Main Hearth', desc: 'Hearty, slow-cooked meals that bring the warmth of our family kitchen.', img: '/Assets/SignatureMenu/the-main-heart.jpeg' },
+              { title: 'Soulful Sips', desc: 'Refreshing traditional drinks, from Masala Chai to cooling Lassi.', img: '/Assets/SignatureMenu/soulful-sips.jpg' }
             ] as const).map((cat, i) => (
               <motion.div 
                 key={i}
